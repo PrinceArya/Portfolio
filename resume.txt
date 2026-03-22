@@ -1,0 +1,43 @@
+PRINCE ARYA
+Algorithm Developer |Computer Vision and Camera ISP |Samsung Research
+♂phone(+91) 6207615892 /envel⌢pearyaprince246@gmail.com /linkedinprince-arya-a803a7180 /githubPrinceArya
+SKILLS
+Languages: C++, Python, MATLAB
+Frameworks: PyTorch, Hugging Face, OpenCV, scikit-learn, NumPy, Pandas
+Expertise: Computer Vision, LLMs, Agents, Generative AI, Data Structures & Algorithms, Model Optimization
+Tools: LangChain, Git, TensorBoard, Jupyter Notebook
+EDUCATION
+Indian Institute of Technology (ISM), Dhanbad Aug 2018 - May 2022
+B.Tech. in Electronics and Communication Engineering GPA: 9.0/10
+EXPERIENCE
+Samsung Research Institute, Bangalore (Senior Engineer) June 2022 - Present
+·Developed patch-based Multi-Exposure Fusion algorithm with novel well-exposedness metric, outperforming SOTA
+methods: 3 ×lower memory usage, 25% faster computation (parallel processing of each patch), and real-time opti-
+mization for Samsung Expert RAW (Paper : ICASSP 2025)
+·Resolved 250+ customer-facing issues through PLMs/VOCs, including issue handling, debugging, and resolution.
+Aligned with customer needs while optimizing the user experience for Expert Raw and high-resolution camera
+pipelines.
+·Developed and optimized a commercialization-ready fusion algorithm for Bayer and Tetra Color Filter Array (CFA),
+enabling high-quality demosaiced output with enhanced detail, color accuracy, and noise reduction, ensuring seamless
+integration into camera imaging pipelines.
+·Collaborated with team members to design and implement MFP algorithm for high-resolution image processing in
+the latent domain, achieving a 2.5 ×reduction in peak memory consumption compared to pixel-domain methods.
+PROJECTS
+Non-Terrestrial Networks Wireless Channel Simulation, (SRIB) May - Jul 2021
+·Developed and simulated a non-terrestrial wireless network using MATLAB (QuaDRiGa toolbox) to analyze SNR
+variations between the satellite (transmitter) and user equipment (receiver).
+·Integrated the simulation with Samsung’s NTN simulator, enhancing signal analysis and validation for beyond 5G
+communication.
+Classification of Horticultural Plantations Using Hyperspectral Images (ISM & ISRO) Jan - Mar 2021
+·Developed an efficient 3D CNN for pixel-level classification of horticulture plantations using high-resolution satellite
+imagery, achieving an F1 score of 0.985, enhancing precision in area estimation, enabling data-driven plantation
+planning and resource allocation to improve agricultural productivity and sustainability
+·Applied Principal Component Analysis (PCA) on spectral bands to reduce redundancy and improve computational
+efficiency.
+AWARDS & RECOGNITION
+·Received Samsung Annual Award 2024-2025 for optimization and Image Quality enhancement of native and Expert
+Raw camera pipeline in Galaxy S25.
+·Received Samsung Annual Award 2023-2024 for leading the development of the 24MP Expert Raw camera pipeline,
+now deployed in Galaxy S24 devices.
+·Recognized with multiple SRIB Excellence Awards for groundbreaking innovations in low-light image processing,
+improving image clarity in Samsung’s flagship camera pipeline.

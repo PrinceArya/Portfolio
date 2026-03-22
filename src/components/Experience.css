@@ -1,0 +1,102 @@
+.experience-timeline {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.timeline-item {
+  position: relative;
+  padding-left: 2rem;
+  margin-bottom: 3rem;
+  border-left: 2px solid rgba(14, 165, 233, 0.3);
+}
+
+.timeline-dot {
+  position: absolute;
+  left: -9px;
+  top: 0;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 10px rgba(14, 165, 233, 0.5);
+}
+
+.exp-header {
+  margin-bottom: 1rem;
+}
+
+.exp-title {
+  font-size: 1.5rem;
+  color: var(--text-primary);
+  margin-bottom: 0.25rem;
+}
+
+.exp-company {
+  color: var(--accent);
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.exp-date {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  margin-top: 0.25rem;
+  display: block;
+}
+
+.exp-details {
+  list-style: none;
+  padding: 0;
+}
+
+.exp-details li {
+  position: relative;
+  padding-left: 1.5rem;
+  margin-bottom: 0.75rem;
+  color: var(--text-secondary);
+  font-size: 1.05rem;
+}
+
+.exp-details li::before {
+  content: "▹";
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+}
+
+@media (max-width: 768px) {
+  .experience-layout {
+    flex-direction: column;
+    gap: 2rem !important;
+  }
+  .exp-side-logo {
+    max-width: 180px !important;
+    min-height: auto !important;
+    order: -1;
+  }
+  .timeline-item {
+    padding-left: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  .exp-header {
+    flex-direction: column;
+    align-items: flex-start !important;
+    gap: 0.75rem !important;
+  }
+  .exp-header img {
+    align-self: flex-start !important;
+  }
+  .exp-title {
+    font-size: 1.3rem;
+  }
+  .exp-company {
+    font-size: 1rem;
+  }
+  .exp-date {
+    font-size: 0.85rem;
+  }
+  .exp-details li {
+    font-size: 0.95rem;
+  }
+}
