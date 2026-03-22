@@ -11,7 +11,7 @@ const Projects = () => {
         <div className="project-card featured glass-card" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center' }}>
           <div className="project-content" style={{ maxWidth: '900px', width: '100%' }}>
             <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginBottom: '2rem', gap: '1.5rem' }}>
-              <img src="/figs/Projects/NTIRE_2026_competition.png" alt="NTIRE Challenge Logo" style={{ maxHeight: '90px', objectFit: 'contain', filter: 'drop-shadow(0 0 15px rgba(255,255,255,0.1))' }} />
+              <img src={`${import.meta.env.BASE_URL}figs/Projects/NTIRE_2026_competition.png`} alt="NTIRE Challenge Logo" style={{ maxHeight: '90px', objectFit: 'contain', filter: 'drop-shadow(0 0 15px rgba(255,255,255,0.1))' }} />
               <h3 className="project-title" style={{ margin: 0, fontSize: '2.2rem' }}>NTIRE 2026: Efficient Burst HDR & Restoration</h3>
             </div>
             <p className="project-desc" style={{ textAlign: 'center', fontSize: '1.1rem', margin: '0 auto 2rem auto', maxWidth: '800px' }}>

@@ -4,7 +4,7 @@ import './Gallery.css';
 const Gallery = () => {
   const [hoveredImg, setHoveredImg] = useState(null);
   // Images are in public/figs/Hobby/img_1.jpg to img_9.jpg
-  const images = Array.from({ length: 9 }, (_, i) => `/figs/Hobby/img_${i + 1}.jpg`);
+  const images = Array.from({ length: 9 }, (_, i) => `${import.meta.env.BASE_URL}figs/Hobby/img_${i + 1}.jpg`);
 
   return (
     <section id="gallery" className="gallery">

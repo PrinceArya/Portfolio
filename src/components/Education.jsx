@@ -21,7 +21,7 @@ const Education = () => {
         
         <div className="edu-side-logo" style={{ flex: '1 1 250px', maxWidth: '300px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
           <img 
-            src="/figs/Prince_arya_logo/logo_3.png" 
+            src={`${import.meta.env.BASE_URL}figs/Prince_arya_logo/logo_3.png`} 
             alt="Education Logo" 
             style={{ width: '100%', height: '100%', minHeight: '200px', objectFit: 'contain', filter: 'drop-shadow(0 0 20px rgba(14, 165, 233, 0.15))', transition: 'transform 0.3s ease' }} 
             onMouseOver={(e) => e.currentTarget.style.transform = 'scale(1.03)'}

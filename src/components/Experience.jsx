@@ -9,7 +9,7 @@ const Experience = () => {
       <div className="experience-layout" style={{ display: 'flex', gap: '4rem', alignItems: 'stretch', justifyContent: 'center', maxWidth: '1100px', margin: '0 auto', flexWrap: 'wrap' }}>
         
         <div className="exp-side-logo" style={{ flex: '1 1 250px', maxWidth: '300px', display: 'flex', justifyContent: 'center', alignItems: 'flex-start', position: 'sticky', top: 'var(--nav-height)' }}>
-          <img src="/figs/Prince_arya_logo/logo_2.png" alt="Experience Logo" style={{ width: '100%', height: 'auto', minHeight: '300px', objectFit: 'contain', filter: 'drop-shadow(0 0 20px rgba(14, 165, 233, 0.15))' }} />
+          <img src={`${import.meta.env.BASE_URL}figs/Prince_arya_logo/logo_2.png`} alt="Experience Logo" style={{ width: '100%', height: 'auto', minHeight: '300px', objectFit: 'contain', filter: 'drop-shadow(0 0 20px rgba(14, 165, 233, 0.15))' }} />
         </div>
 
         <div className="experience-timeline" style={{ flex: '2 1 600px', margin: 0 }}>
