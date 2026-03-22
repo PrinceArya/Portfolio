@@ -9,10 +9,15 @@ const About = () => {
       <div className="about-grid">
         <div className="about-text glass-card">
           <p className="about-bio">
-            I am a <strong>Lead Engineer at Samsung Research Institute</strong> specializing in Computer Vision, LLMs, and Model Optimization.
+            I am a Lead Engineer at Samsung Research Institute specializing in Computer Vision, Large Language Models (LLMs), and Model Optimization.
           </p>
           <p className="about-bio">
-            My work focuses on pushing the boundaries of generative AI and agentic systems, while building production-ready optimization pipelines. I thrive at the intersection of robust engineering and innovative AI research vbcsdfhdgf jhdfjhghgfd ghfddfgh sdhsgfgsg  sfhsgfgsh sfshfgsgfs fsshvfgsvvcsjn sfbhsfhsvvs.
+            In my current role, I drive the deployment of LLMs for edge devices, leveraging advanced quantization, pruning, and knowledge distillation
+            techniques to strictly minimize latency and memory footprints. Throughout my tenure at Samsung, I have consistently focused on bridging the
+            gap between cutting-edge research and real-world commercial application. I have spearheaded the end-to-end design and on-device deployment of
+            numerous camera imaging algorithms—most notably, a comprehensive Multi-Frame solution for the 24MP camera pipeline and advanced Tone Mapping
+            techniques—which have been successfully integrated into Samsung's flagship devices. Beyond my technical work, I am a passionate photographer
+            who loves to capture the unique stories of the people and places I encounter along the way.
           </p>
         </div>
 
