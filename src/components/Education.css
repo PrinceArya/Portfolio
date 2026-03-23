@@ -72,6 +72,8 @@
   .education-card {
     text-align: center;
     padding: 1.5rem;
+    position: relative;
+    z-index: 2;
   }
 
   .edu-meta {
@@ -93,5 +95,8 @@
     min-height: auto !important;
     align-self: center !important;
     margin: 0 auto;
+    position: sticky;
+    top: calc(var(--nav-height) + 2rem);
+    z-index: 1;
   }
 }
