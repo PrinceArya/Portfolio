@@ -88,3 +88,9 @@
     min-height: auto !important;
   }
 }
+
+@media (max-width: 480px) {
+  .education-card { padding: 1.25rem; }
+  .edu-degree { font-size: 1.2rem; }
+  .edu-university { font-size: 0.95rem; }
+}

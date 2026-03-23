@@ -67,3 +67,9 @@
     font-size: 0.95rem !important;
   }
 }
+
+@media (max-width: 480px) {
+  .project-card.featured { padding: 2rem 1rem !important; }
+  .project-card.featured .project-title { font-size: 1.4rem !important; }
+  .project-desc { font-size: 0.9rem !important; }
+}

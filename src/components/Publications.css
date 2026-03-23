@@ -75,3 +75,9 @@
     font-size: 0.95rem;
   }
 }
+
+@media (max-width: 480px) {
+  .publication-card { padding: 1.25rem; }
+  .pub-title { font-size: 1.1rem; }
+  .pub-details li { font-size: 0.9rem; }
+}
