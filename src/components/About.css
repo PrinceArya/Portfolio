@@ -45,19 +45,17 @@
   .about-bio {
     font-size: 1rem;
   }
+
   .skill-category h3 {
     font-size: 1.1rem;
   }
+
   .skill-list {
     gap: 0.5rem;
   }
+
   .badge {
     font-size: 0.8rem;
     padding: 0.35rem 0.7rem;
   }
-}
-
-@media (max-width: 480px) {
-  .skill-category h3 { font-size: 1rem; }
-  .badge { font-size: 0.75rem; padding: 0.3rem 0.6rem; }
 }

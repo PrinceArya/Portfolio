@@ -8,14 +8,14 @@ const Hero = () => {
         <div className="hero-text">
           <span className="hero-subtitle">AI Engineer</span>
           <h1 className="hero-title">Prince Arya</h1>
-          
+
           <p className="hero-location">
             📍 Bengaluru, Karnataka, India
           </p>
-          
+
           <div className="hero-actions">
-            <a href="#experience" className="cta-btn">View My Work</a>
-            <a href="mailto:aryaprince13130213@gmail.com" className="cta-btn secondary">Get in Touch</a>
+            <a href="#projects" className="cta-btn">View My Work</a>
+            <a href="mailto:aryaprince246@gmail.com" className="cta-btn secondary">Get in Touch</a>
           </div>
         </div>
         <div className="hero-image">

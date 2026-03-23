@@ -48,6 +48,7 @@
   .project-card.featured {
     padding: 2.5rem 1.5rem;
   }
+
   .projects-grid {
     gap: 1.5rem;
   }
@@ -57,19 +58,16 @@
   .projects-grid {
     grid-template-columns: 1fr;
   }
+
   .project-card.featured .project-title {
     font-size: 1.6rem !important;
   }
+
   .project-card.featured img {
     max-height: 50px !important;
   }
+
   .project-desc {
     font-size: 0.95rem !important;
   }
-}
-
-@media (max-width: 480px) {
-  .project-card.featured { padding: 2rem 1rem !important; }
-  .project-card.featured .project-title { font-size: 1.4rem !important; }
-  .project-desc { font-size: 0.9rem !important; }
 }

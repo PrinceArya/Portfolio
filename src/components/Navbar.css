@@ -4,7 +4,8 @@
   left: 0;
   width: 100%;
   height: var(--nav-height);
-  background: rgba(15, 23, 42, 0.85); /* Slate 900 */
+  background: rgba(15, 23, 42, 0.85);
+  /* Slate 900 */
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.05);
@@ -77,11 +78,11 @@
     gap: 3rem;
     z-index: 999;
   }
-  
+
   .nav-links.active {
     right: 0;
   }
-  
+
   .nav-link {
     font-size: 1.3rem;
   }
@@ -90,9 +91,4 @@
     display: block;
     z-index: 1000;
   }
-}
-
-@media (max-width: 480px) {
-  .nav-logo { font-size: 1.2rem; }
-  .nav-link { font-size: 1.1rem; }
 }

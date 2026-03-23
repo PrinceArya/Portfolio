@@ -68,29 +68,28 @@
     flex-direction: column-reverse !important;
     gap: 2rem !important;
   }
+
   .education-card {
     text-align: center;
     padding: 1.5rem;
   }
+
   .edu-meta {
     justify-content: center;
     flex-direction: column;
     gap: 0.5rem;
   }
+
   .edu-degree {
     font-size: 1.3rem;
   }
+
   .edu-university {
     font-size: 1.05rem;
   }
+
   .edu-side-logo {
     max-width: 150px !important;
     min-height: auto !important;
   }
-}
-
-@media (max-width: 480px) {
-  .education-card { padding: 1.25rem; }
-  .edu-degree { font-size: 1.2rem; }
-  .edu-university { font-size: 0.95rem; }
 }
