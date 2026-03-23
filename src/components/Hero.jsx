@@ -15,7 +15,7 @@ const Hero = () => {
 
           <div className="hero-actions">
             <a href="#projects" className="cta-btn">View My Work</a>
-            <a href="mailto:aryaprince246@gmail.com" className="cta-btn secondary">Get in Touch</a>
+            <a href="https://www.linkedin.com/in/prince-arya-a803a7180/" target="_blank" rel="noopener noreferrer" className="cta-btn secondary">Get in Touch</a>
           </div>
         </div>
         <div className="hero-image">
