@@ -9,7 +9,7 @@ const About = () => {
       <div className="about-grid">
         <div className="about-text glass-card">
           <p className="about-bio">
-            I am a Lead Engineer at Samsung Research Institute specializing in Computer Vision, Large Language Models (LLMs), and Model Optimization.
+            I am a <strong>Lead Engineer at Samsung Research Institute</strong> specializing in Computer Vision, Large Language Models (LLMs), and Model Optimization.
           </p>
           <p className="about-bio">
             In my current role, I drive the deployment of LLMs for edge devices, leveraging advanced quantization, pruning, and knowledge distillation
@@ -36,7 +36,9 @@ const About = () => {
               <h3>Frameworks</h3>
               <div className="skill-list">
                 <span className="badge">PyTorch</span>
-                <span className="badge">Hugging Face</span>
+                <span className="badge">LangGraph</span>
+                <span className="badge">LangChain</span>
+                <span className="badge">Hugging Face Transformer</span>
                 <span className="badge">OpenCV</span>
                 <span className="badge">scikit-learn</span>
                 <span className="badge">NumPy</span>
@@ -47,11 +49,12 @@ const About = () => {
             <div className="skill-category glass-card">
               <h3>Tools & Domains</h3>
               <div className="skill-list">
-                <span className="badge">LangChain</span>
-                <span className="badge">LangGraph</span>
-                <span className="badge">LLMs</span>
+                <span className="badge">Computer Vision</span>
+                <span className="badge">Image Signal Processing</span>
+                <span className="badge">LLM Orchestration</span>
+                <span className="badge">Model Optimization</span>
                 <span className="badge">Generative AI</span>
-                <span className="badge">Agentic AI</span>
+                <span className="badge">Deep Learning</span>
               </div>
             </div>
           </div>
