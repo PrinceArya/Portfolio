@@ -75,6 +75,8 @@
     max-width: 180px !important;
     min-height: auto !important;
     order: -1;
+    align-self: center !important;
+    margin: 0 auto;
   }
 
   .timeline-item {

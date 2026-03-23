@@ -91,5 +91,7 @@
   .edu-side-logo {
     max-width: 150px !important;
     min-height: auto !important;
+    align-self: center !important;
+    margin: 0 auto;
   }
 }
