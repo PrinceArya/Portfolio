@@ -65,6 +65,13 @@
   color: var(--accent);
 }
 
+.exp-side-logo {
+  position: sticky;
+  top: calc(var(--nav-height) + 2rem);
+  align-self: flex-start;
+  z-index: 1;
+}
+
 @media (max-width: 768px) {
   .experience-layout {
     flex-direction: column;

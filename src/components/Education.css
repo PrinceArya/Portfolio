@@ -63,6 +63,13 @@
   transform: scale(1.05);
 }
 
+.edu-side-logo {
+  position: sticky;
+  top: calc(var(--nav-height) + 2rem);
+  align-self: flex-start;
+  z-index: 1;
+}
+
 @media (max-width: 768px) {
   .education-layout {
     flex-direction: column-reverse !important;
