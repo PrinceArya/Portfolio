@@ -6,6 +6,7 @@
 
 .timeline-item {
   position: relative;
+  z-index: 2;
   padding-left: 2rem;
   margin-bottom: 3rem;
   border-left: 2px solid rgba(14, 165, 233, 0.3);
