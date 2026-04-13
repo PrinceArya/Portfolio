@@ -33,7 +33,7 @@ const Projects = () => {
         <div className="project-card glass-card">
           <div className="project-content">
             <h3 className="project-title" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-              LLM Gallery 
+              LLM Gallery
             </h3>
             <p className="project-desc">
               Developed an interactive web application to visualize and demystify the fundamental architectural blocks of open-source Large Language Models. Built via advanced Agentic Workflows, the platform comprehensively exhibits core structural components ranging from Tokenizers to intricate Prefill and Decode validation phases.
@@ -53,6 +53,20 @@ const Projects = () => {
 
         <div className="project-card glass-card">
           <div className="project-content">
+            <h3 className="project-title">Jarvis: Assistant</h3>
+            <p className="project-desc">
+              Developed a 3D CNN for pixel-level classification using high-resolution satellite imagery, achieving an F1 score of 0.985 (in collaboration with ISM & ISRO). Applied PCA to improve computational efficiency.
+            </p>
+            <div className="project-tech">
+              <span className="badge">Small Language Model</span>
+              <span className="badge">SLM Trainning</span>
+              <span className="badge">Transformer</span>
+            </div>
+          </div>
+        </div>
+
+        <div className="project-card glass-card">
+          <div className="project-content">
             <h3 className="project-title">Horticultural Plantation Classification</h3>
             <p className="project-desc">
               Developed a 3D CNN for pixel-level classification using high-resolution satellite imagery, achieving an F1 score of 0.985 (in collaboration with ISM & ISRO). Applied PCA to improve computational efficiency.
@@ -65,19 +79,6 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="project-card glass-card">
-          <div className="project-content">
-            <h3 className="project-title">Non-Terrestrial Networks</h3>
-            <p className="project-desc">
-              Simulated wireless networks using MATLAB to analyze SNR variations for beyond 5G communication patterns, facilitating advanced connectivity research.
-            </p>
-            <div className="project-tech">
-              <span className="badge">MATLAB</span>
-              <span className="badge">Beyond 5G</span>
-              <span className="badge">Wireless Networks</span>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );
