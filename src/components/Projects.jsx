@@ -57,7 +57,7 @@ const Projects = () => {
               Jarvis: SLM Assistant
             </h3>
             <p className="project-desc">
-              Engineered an end-to-end AI chatbot tailored for educational purposes, commanding the full technology stack from custom Small Language Model (SLM) development and tuning to comprehensive user interface integration.
+              Architected and trained a custom Small Language Model (SLM) completely from scratch utilizing advanced transformer architecture. The framework focuses extensively on end-to-end model development, custom tokenization strategies, and rigorous training loops structured over open-source conversational datasets.
             </p>
             <div className="project-tech">
               <span className="badge">Small Language Models (SLMs)</span>
