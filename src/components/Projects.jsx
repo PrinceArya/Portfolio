@@ -53,14 +53,20 @@ const Projects = () => {
 
         <div className="project-card glass-card">
           <div className="project-content">
-            <h3 className="project-title">Jarvis: Assistant</h3>
+            <h3 className="project-title" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+              Jarvis: SLM Assistant
+            </h3>
             <p className="project-desc">
-              Developed a 3D CNN for pixel-level classification using high-resolution satellite imagery, achieving an F1 score of 0.985 (in collaboration with ISM & ISRO). Applied PCA to improve computational efficiency.
+              Engineered an end-to-end AI chatbot tailored for educational purposes, commanding the full technology stack from custom Small Language Model (SLM) development and tuning to comprehensive user interface integration.
             </p>
             <div className="project-tech">
-              <span className="badge">Small Language Model</span>
-              <span className="badge">SLM Trainning</span>
-              <span className="badge">Transformer</span>
+              <span className="badge">Small Language Models (SLMs)</span>
+              <span className="badge">Custom Model Training</span>
+              <span className="badge">Transformers</span>
+              <span className="badge">Generative AI</span>
+            </div>
+            <div className="project-links" style={{ marginTop: '1.8rem', display: 'flex', gap: '1rem' }}>
+              <a href="https://github.com/PrinceArya/Jarvis" target="_blank" rel="noopener noreferrer" className="cta-btn secondary" style={{ padding: '0.5rem 1.2rem', fontSize: '0.95rem' }}>Source Code</a>
             </div>
           </div>
         </div>
