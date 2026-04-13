@@ -15,9 +15,9 @@ const Projects = () => {
               <h3 className="project-title" style={{ margin: 0, fontSize: '2.2rem' }}>NTIRE 2026: Efficient Burst HDR & Restoration</h3>
             </div>
             <p className="project-desc" style={{ textAlign: 'center', fontSize: '1.1rem', margin: '0 auto 2rem auto', maxWidth: '800px' }}>
-              Developed a multi-stage pipeline for the NTIRE 2026 challenge to merge 9 RAW frames into a single high-quality HDR RGB image. The architecture utilizes a Pyramid Cross-Attention Alignment (PCAA) module for spatial alignment, a Multi-Scale Gated Module (MSGM) for adaptive feature combination, and a SplitterNet based model for HDR reconstruction.
+              I developed this multi-stage HDR pipeline for the NTIRE 2026 challenge, hosted in association with CVPR. The goal was to efficiently merge 9 RAW frames into a single high-quality HDR RGB image. Our architecture uses a Pyramid Cross-Attention Alignment module to align the spatial frames natively, followed by a SplitterNet-based model for the final reconstruction.
               <br /><br />
-              Achieved validation scores of <strong>PSNR 39.45</strong> and <strong>SSIM 0.97</strong>. The method outperforms baseline models while maintaining an extremely low parameter count (3.3M) and computational efficiency (0.087 TFLOPs), validating its suitability for on-device mobile deployment.
+              We achieved validation scores of <strong>PSNR 39.45</strong> and <strong>SSIM 0.97</strong>, outperforming the baseline models while keeping the network incredibly lightweight (only 3.3M parameters and 0.087 TFLOPs)—perfectly suited for real-world mobile deployment.
             </p>
             <div className="project-tech" style={{ justifyContent: 'center' }}>
               <span className="badge">Computer Vision</span>
@@ -36,7 +36,7 @@ const Projects = () => {
               LLM Gallery
             </h3>
             <p className="project-desc">
-              Developed an interactive web application to visualize and demystify the fundamental architectural blocks of open-source Large Language Models. Built via advanced Agentic Workflows, the platform comprehensively exhibits core structural components ranging from Tokenizers to intricate Prefill and Decode validation phases.
+              I built this as a fun hobby project to simplify and demystify the foundational blocks of Large Language Models. Built out partially using Agentic Workflows, it serves as an interactive web gallery that breaks down how open-source LLMs actually work under the hood, clearly visualizing components like Tokenizers alongside the Prefill and Decode phases.
             </p>
             <div className="project-tech">
               <span className="badge">Large Language Models</span>
@@ -57,7 +57,7 @@ const Projects = () => {
               Jarvis: SLM Assistant
             </h3>
             <p className="project-desc">
-              Architected and trained a custom Small Language Model (SLM) completely from scratch utilizing advanced transformer architecture. The framework focuses extensively on end-to-end model development, custom tokenization strategies, and rigorous training loops structured over open-source conversational datasets.
+              To genuinely understand the complete lifecycle and workflow of an LLM, I built this Small Language Model (SLM) entirely from scratch. Rather than just building a chatbot around an API, I focused heavily on the core, underlying engineering—writing custom tokenization strategies, building the transformer architecture, and running real training loops on open-source conversational datasets.
             </p>
             <div className="project-tech">
               <span className="badge">Small Language Models (SLMs)</span>
