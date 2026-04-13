@@ -73,14 +73,20 @@ const Projects = () => {
 
         <div className="project-card glass-card">
           <div className="project-content">
-            <h3 className="project-title">Horticultural Plantation Classification</h3>
+            <h3 className="project-title" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+              Horticultural Plantation Classification
+            </h3>
             <p className="project-desc">
-              Developed a 3D CNN for pixel-level classification using high-resolution satellite imagery, achieving an F1 score of 0.985 (in collaboration with ISM & ISRO). Applied PCA to improve computational efficiency.
+              During my internship at the Indian Space Research Organisation (ISRO), I designed a deep learning pipeline to accurately classify horticulture crops and generate detailed area maps utilizing complex hyperspectral satellite imagery. By combining a Hybrid 3D-2D CNN architecture with PCA dimensionality reduction and SMOTE balancing, the framework achieved a rigorous pixel-level F1 score of 0.985.
             </p>
             <div className="project-tech">
-              <span className="badge">3D CNN</span>
+              <span className="badge">3D-2D CNN</span>
+              <span className="badge">Hyperspectral Imaging</span>
               <span className="badge">PCA</span>
-              <span className="badge">Satellite Imagery</span>
+              <span className="badge">Deep Learning</span>
+            </div>
+            <div className="project-links" style={{ marginTop: '1.8rem', display: 'flex', gap: '1rem' }}>
+              <a href="https://github.com/PrinceArya/Classification-of-Horticulture-plantations-using-hyperspectral-Images-and-Area-Estimation" target="_blank" rel="noopener noreferrer" className="cta-btn secondary" style={{ padding: '0.5rem 1.2rem', fontSize: '0.95rem' }}>Source Code</a>
             </div>
           </div>
         </div>
