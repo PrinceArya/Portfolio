@@ -32,6 +32,27 @@ const Projects = () => {
         {/* Regular Projects */}
         <div className="project-card glass-card">
           <div className="project-content">
+            <h3 className="project-title" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+              LLM Gallery 
+            </h3>
+            <p className="project-desc">
+              Developed an interactive web application to visualize and demystify the fundamental architectural blocks of open-source Large Language Models. Built via advanced Agentic Workflows, the platform comprehensively exhibits core structural components ranging from Tokenizers to intricate Prefill and Decode validation phases.
+            </p>
+            <div className="project-tech">
+              <span className="badge">Large Language Models</span>
+              <span className="badge">Agentic AI</span>
+              <span className="badge">Transformer Architecture</span>
+              <span className="badge">Generative AI</span>
+            </div>
+            <div className="project-links" style={{ marginTop: '1.8rem', display: 'flex', gap: '1rem' }}>
+              <a href="https://princearya.github.io/LLM_Gallery/" target="_blank" rel="noopener noreferrer" className="cta-btn" style={{ padding: '0.5rem 1.2rem', fontSize: '0.95rem' }}>Live Demo</a>
+              <a href="https://github.com/PrinceArya/LLM_Gallery" target="_blank" rel="noopener noreferrer" className="cta-btn secondary" style={{ padding: '0.5rem 1.2rem', fontSize: '0.95rem' }}>Source Code</a>
+            </div>
+          </div>
+        </div>
+
+        <div className="project-card glass-card">
+          <div className="project-content">
             <h3 className="project-title">Horticultural Plantation Classification</h3>
             <p className="project-desc">
               Developed a 3D CNN for pixel-level classification using high-resolution satellite imagery, achieving an F1 score of 0.985 (in collaboration with ISM & ISRO). Applied PCA to improve computational efficiency.
