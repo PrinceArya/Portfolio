@@ -22,3 +22,11 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Project custom ignore files
+.agent/
+NTIRE_FactSheet.pdf
+ntire.txt
+README.md
+Resume_Prince_Arya.pdf
+resume.txt
